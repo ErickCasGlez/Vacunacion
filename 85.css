@@ -1,0 +1,363 @@
+/*Estas son las fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap');
+
+/*Estilos de header*/
+.hola{
+    flex-basis: 0;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 3px;
+
+}
+.hola:hover{
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.po{
+    /*float: left;*/
+    color: rgb(30, 64, 198);
+    font-weight:lighter;
+}
+
+.tre{
+    max-width: 1080px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 243, 255);
+}
+/*.tres{
+    max-width: 1080px;
+    min-width: 300px;
+    margin: 0 auto;
+    display:flex;
+    row-gap: 10px;
+    column-gap: 20px;
+    list-style-type: none;
+}*/
+
+/*Estilos de footer*/
+.listas{
+    list-style: none;
+    color: black;
+}
+
+.tres{
+    max-width: 1080px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 243, 255);
+    word-wrap: break-word;
+}
+
+.io{
+    width: 150px;
+    word-wrap: break-word;
+    color: rgb(30, 64, 198);
+}
+
+.legal{
+    max-width: 1080px;
+    min-width: 300px;
+    padding: 0 10px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 243, 255);
+}
+.p{
+    margin: auto;
+    margin-bottom: 15px;
+    max-width: 1080px;
+    min-width: 300px;
+}
+
+.ul{
+    padding: 0;
+}
+
+/*Estilos de cuerpo parte1 (imagen de vacunación)*/
+
+.cuerpo{
+    display: flex;
+    margin: 25px;
+}
+.primera{
+    text-align: center;
+    margin-top: 0 50px;
+    position: relative;
+    left: 20%;
+}
+.reloj{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.calendario{
+    justify-content:center;
+    box-sizing: border-box;
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    transform: translate(10%, 135%);
+    width: 300px;
+    align-self: center;
+}
+.km{
+    width: 45%; 
+    margin: 0 50px;
+    position: relative;
+    left: 25%;
+}
+
+.par1{
+    text-align: start;
+    margin-bottom: 0;
+}
+
+.texto{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.prueba{
+    text-align:center;
+    margin-bottom: 15px;
+
+}
+/*.imagen_primera{
+    display: flex;
+    justify-content: right;
+}*/
+.titulo1{
+    float: right;
+    font-size: 335%;
+    text-align:start;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 0;
+}
+.opcion{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    background-color: rgb(30, 64, 198);
+    border-radius: 8px;
+    color: white;
+}
+
+.horario, .fecha, .tipo{
+    text-align: center;
+}
+
+.boton{
+    background-color: rgb(30, 64, 198);
+    border-radius: 8px;
+    color: white;
+    width: 150px;
+    align-self: center;
+}
+
+/*Estilos de cuerpo parte2 (slider marcas vacunas)*/
+.logo{
+    width: 10%;
+    margin: 1%;
+}
+.slider{
+    max-width: 1080px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Estilos de cuerpo parte3 (información)*/
+.respuesta{
+    display: flex;
+}
+.titulo2{
+    font-size: 335%;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    position: relative;
+}
+
+.info{
+    max-width: 1080px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.pregunta{
+    justify-content:space-evenly;
+}
+
+.tarjeta{
+    width: 200px;
+    word-wrap: break-word;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px grey;
+}
+
+.tarjetas{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.tituloTarjeta{
+    text-align:center;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 0;
+}
+
+.pTarjeta{
+    text-align: start;
+}
+
+/*Estilos de cuerpo parte4 (preparación)*/ 
+.prepara{
+    text-align: start;
+    position: relative;
+}
+
+.titulo4{
+    position: relative;
+    font-size: 335%;
+    text-align: start;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 0;
+}
+
+.imagenPrep{
+    width: 50%;
+    margin: 0 50px;
+    position: relative;
+    left: -30%;
+    
+}
+
+.prep{
+    display: flex;
+}
+
+.textoPrep{
+    width: 35%;
+    position: relative;
+    left: 58.5%;
+}
+
+.titulo5{
+    position: relative;
+    text-align: start;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.barra{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.barra[open]{
+    box-shadow: 0px 0px 20px grey;
+}
+/*https://www.silocreativo.com/details-summary-elementos-desplegables-ocultos-html/*/
+
+/*Estilos de cuerpo parte5 (contacto)*/
+.emergencia{
+    /*width: 35%;*/
+    position: relative;
+    left: -18.5%;
+}
+
+.contact{
+    text-align: start;
+    margin-top: 0 50px;
+    position: relative;
+}
+
+.titulo6{
+    width: 25%;
+    font-size: 335%;
+    text-align: start;
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    position: relative;
+}
+
+.contacto{
+    text-align: start;
+    position: relative;
+}
+
+.imagenContacto{
+    float: right;
+    width: 50%;
+    margin: 0 50px;
+    position: relative;
+    right: 5%;
+}
+
+.textoContacto{
+    width: 45%;
+    margin: 0 50px;
+    position: relative;
+    left: 25%;
+}
+
+.botonContacto{
+    position: relative;
+    display: flex;
+    width: 30%;
+    left: 20%;
+    flex-flow: column wrap;
+    flex-direction: row;
+    top: 10%;
+    /*gap: 10px;*/
+    gap: 50px 50px; /* row-gap column gap */
+    /*row-gap: 10px;
+    column-gap: 20px;*/
+    align-self: center;
+
+}
+
+.pks{
+    float: center;
+    display: flex;
+    width: 35%;
+    left: 5%;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px grey;
+    padding: 15px;
+}
+
+.pk{
+    margin: 0;
+}
